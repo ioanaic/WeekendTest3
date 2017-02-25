@@ -8,6 +8,13 @@ public class Example {
 
         int suma = Calc.add(2, 3);
         System.out.println(suma);  //5
+
+        int x = SkeletonJava.readIntConsole("x=");
+        int y = SkeletonJava.readIntConsole("y=");
+
+        int sum = x + y;
+
+        SkeletonJava.printConsole(sum);
     }
 
 }
