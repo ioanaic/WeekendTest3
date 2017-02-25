@@ -11,13 +11,23 @@ public class Example {
 
         int x = SkeletonJava.readIntConsole("x=");
         int y = SkeletonJava.readIntConsole("y=");
+int max,min;
+if(x>y){
+    max=x;
+    min=y;
+}
+else{
+    max=y;
+    min=x;
+}
 
-        int sum = x;
+        int sum = max;
         //int counter = y;
 
         //while (counter > 0) {
-        for(int counter = 0;counter<y;counter++){
+        for(int counter = 0;counter<min;counter++){
             sum = sum + 1;
+            SkeletonJava.printConsole("Adding 1 to sum");
            // counter = counter - 1;
         }
         SkeletonJava.printConsole(x + "+" + y + "=" + sum);
