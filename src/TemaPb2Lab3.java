@@ -3,6 +3,7 @@
  */
 public class TemaPb2Lab3 {
     //Given an array of numbers, separate elements by parity
+    //add comm
     public static void main(String[] args) {
         int n = SkeletonJava.readIntConsole("How many numbers? ");
         int a[] = new int[n];
