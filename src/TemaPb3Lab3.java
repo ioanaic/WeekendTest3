@@ -11,5 +11,15 @@ public class TemaPb3Lab3 {
             a[i] = SkeletonJava.readIntConsole("a[" + i + "]: ");
         }
     }
+//TEST
+    public static boolean checkiIsIncreasinglyOrderd{
+//TEST 2323233232323
+    }
+
+    public static void afisNumbers(int[] x){
+        for(int i = 0;i<x.length){
+            System.out.println(x[i]+" ");
+        }
+    }
 
 }
