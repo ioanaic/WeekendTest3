@@ -5,7 +5,7 @@ public class NameAndSurname {
     //Test
     public static void main(String[] args) {
         int n = SkeletonJava.readIntConsole("How many names? ");
-        //String[][] a = new String[100][100];
+        String[][] persoana = new String[n][2];
         String[] name = new String[n];
         String[] prenume = new String[n];
         int[] datanasterii = new int[n];
