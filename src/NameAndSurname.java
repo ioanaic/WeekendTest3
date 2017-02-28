@@ -19,7 +19,7 @@ public class NameAndSurname {
         }
         System.out.println("Numele sunt: ");
         for (int i = 0; i < n; i++) {
-            System.out.println(name[i] + "+" + prenume[i] + name[i].length()+datanasterii[i]);
+            System.out.println(name[i] + "+" + prenume[i] + name[i].length() + datanasterii[i]);
         }
     }
 }
