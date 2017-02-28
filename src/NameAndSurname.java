@@ -2,6 +2,7 @@
  * Created by Ioana on 2/28/2017.
  */
 public class NameAndSurname {
+    //Test
     public static void main(String[] args) {
         int n = SkeletonJava.readIntConsole("How many names? ");
         //String[][] a = new String[100][100];
