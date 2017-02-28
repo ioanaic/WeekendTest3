@@ -3,7 +3,7 @@
  */
 public class TemaPb3Lab3 {
 
-
+//TEST TEST TESTES TESTEST
     //    Given an array of numbers, check if the elements are increasingly sorted
 //    (hint) check adjacent pairs for the order relatio
     public static void main(String[] args) {
