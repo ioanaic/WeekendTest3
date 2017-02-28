@@ -5,7 +5,10 @@ public class TemaPb3Lab3 {
 //    Given an array of numbers, check if the elements are increasingly sorted
 //    (hint) check adjacent pairs for the order relation
 public static void main(String[] args) {
+int n = SkeletonJava.readIntConsole("How many numbers? ");
+    for(int i=0;i<n;){
 
+    }
 }
 
 }
