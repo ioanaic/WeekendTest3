@@ -9,6 +9,7 @@ public class Multiply {
         System.out.println(x + " * " + y + " = " + multi);
 
     }
+    //test
 
     private static int multi(int x, int y) {
         int max, min, multi;
